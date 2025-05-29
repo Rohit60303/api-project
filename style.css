@@ -50,7 +50,7 @@ select, input
     padding: 10px;
     border-radius: 4px;
     border: 1px solid #ddd;
-    min-width: 50px;
+    max-width: 100px;
     font-size: 16px;
 }
 
