@@ -127,3 +127,7 @@ So it is one of my first tasks and i titled it as Cinema Explorer. Cinema Explor
 *So once have a try!*
 
     Clone the repo, install dependencies, and run npm start to launch your very own Cinema Explorer! 
+
+*OUTPUT* :
+
+<img width="1920" height="1140" alt="Image" src="https://github.com/user-attachments/assets/8a2a5dac-4a31-4e9a-9590-d2d327fdbcfd" />
