@@ -137,3 +137,5 @@ So it is one of my first tasks and i titled it as Cinema Explorer. Cinema Explor
 <img width="1920" height="1140" alt="Image" src="https://github.com/user-attachments/assets/fdfb6880-9939-4476-a376-ac3afcf7805e" />
 
 <img width="1920" height="1140" alt="Image" src="https://github.com/user-attachments/assets/775690f5-0335-45f6-8a54-92a8b4b73c34" />
+
+<img width="1920" height="1140" alt="Image" src="https://github.com/user-attachments/assets/87d0a312-7ffb-4ff0-b0f9-ce49885efeb6" />
