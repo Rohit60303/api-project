@@ -78,9 +78,13 @@ So it is one of my first tasks and i titled it as Cinema Explorer. Cinema Explor
 
 *Then users can be able to* :
 
-  Choose between "Popular" or "Recommended" titles.
+  Choose between "Popular" or "Recommended" titles and should click on show results.
 
-  Search for individual films.
+  Search for individual films and click on show results.
+
+  `Note : we should click on show results button when we want to search any movie`
+
+  clear button is used to clear the search.
   
   Change pages with "Previous" and "Next" buttons.
 
