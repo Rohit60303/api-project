@@ -122,11 +122,11 @@ So it is my first task and i titled it as Cinema Explorer. Cinema Explorer is a 
 
 *Future Enhancements* -
 
---> Expanded Movie Pages – Expandable for trailers, cast, etc.
+- Expanded Movie Pages – Expandable for trailers, cast, etc.
 
---> User Accounts – Favorite movies saved.
+- User Accounts – Favorite movies saved.
 
---> Additional Filters – Sort by genre, year, or rating.
+- Additional Filters – Sort by genre, year, or rating.
 
 *So once have a try!*
 
