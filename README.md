@@ -20,57 +20,57 @@ So it is my first task and i titled it as Cinema Explorer. Cinema Explorer is a 
 
 1. server.js -
 
-        Purpose :- It initializes a basic Express.js server to host static files.
+   - Purpose :- It initializes a basic Express.js server to host static files.
 
-        Key Features :- Sets up a Node.js server listening on port 3000.
+   - Key Features :- Sets up a Node.js server listening on port 3000.
 
-        Uses express.static to serve the public folder.
+   - Uses express.static to serve the public folder.
 
-        Also forwards all requests to index.html for a single-page application (SPA) experience.
+   - Also forwards all requests to index.html for a single-page application (SPA) experience.
 
 2. public/index.html -
 
-        Purpose :- It is the application's primary HTML framework.
+   - Purpose :- It is the application's primary HTML framework.
 
-        Key Features :- Consists of UI layout, such as a header, search controls, and movie display area.
+   - Key Features :- Consists of UI layout, such as a header, search controls, and movie display area.
 
-        References style.css for styling and script.js for functionality.
+   - References style.css for styling and script.js for functionality.
 
-        It features dropdown menus, search input, and pagination buttons.
+   - It features dropdown menus, search input, and pagination buttons.
 
 3. public/script.js -
 
-        Purpose :- Processes API requests, DOM manipulation, and user input.
+   - Purpose :- Processes API requests, DOM manipulation, and user input.
 
-        Key Features :- Fetches movie information from TMDB API (popular, top_rated, and search).
+   - Key Features :- Fetches movie information from TMDB API (popular, top_rated, and search).
 
-        Dynamically displays movie cards with posters, ratings, and overviews.
+   - Dynamically displays movie cards with posters, ratings, and overviews.
       
-        It also includes pagination (restricted to 2 pages for demo purpose).
+   - It also includes pagination (restricted to 2 pages for demo purpose).
 
-        Manages search queries and error scenarios (e.g., no results found).
+   - Manages search queries and error scenarios (e.g., no results found).
 
 4. public/style.css -
 
-        Purpose :- It specifies the visual design of the application.
+   - Purpose :- It specifies the visual design of the application.
 
-        Key Features :- Responsive grid layout for movie cards.
+   - Key Features :- Responsive grid layout for movie cards.
 
-        Modern, clean design with hover effects.
+   - Modern, clean design with hover effects.
 
-        Mobile-friendly optimizations via media queries.
+   - Mobile-friendly optimizations via media queries.
 
-        Styling for buttons, dropdowns, and pagination controls.
+   - Styling for buttons, dropdowns, and pagination controls.
 
 5. package.json -
    
-        Purpose :- Handles project dependencies and scripts.
+   - Purpose :- Handles project dependencies and scripts.
 
-        Key Features :- Lists necessary packages (express, axios, dotenv).
+   - Key Features :- Lists necessary packages (express, axios, dotenv).
 
-        Contains dev and start scripts for server execution.
+   - Contains dev and start scripts for server execution.
 
-        Declares nodemon for automatic reloading in development mode.
+   - Declares nodemon for automatic reloading in development mode.
 
 # How It Works :
 
@@ -78,37 +78,37 @@ So it is my first task and i titled it as Cinema Explorer. Cinema Explorer is a 
 
 *Then users can be able to* :
 
-  Choose between "Popular" or "Recommended" titles and should click on show results.
+  - Choose between "Popular" or "Recommended" titles and should click on show results.
 
-  Search for individual films and click on show results.
+  - Search for individual films and click on show results.
 
   `Note : we should click on show results button when we want to search any movie`
 
-  clear button is used to clear the search.
+  - clear button is used to clear the search.
   
-  Change pages with "Previous" and "Next" buttons.
+  - Change pages with "Previous" and "Next" buttons.
 
 *Backend (server.js)* :
 
-    Lightweight Express server serving the frontend.
+        Lightweight Express server serving the frontend.
 
-    No complicated routing—simply static file hosting for a simple, lightweight experience.
+        No complicated routing—simply static file hosting for a simple, lightweight experience.
 
-    API Interaction (script.js)
+        API Interaction (script.js)
 
-    Performs fetch requests to TMDB's API.
+        Performs fetch requests to TMDB's API.
 
-    Processes the response and dynamically creates movie cards.
+         Processes the response and dynamically creates movie cards.
 
-    Manages pagination logic (up to 2 pages).
+        Manages pagination logic (up to 2 pages).
 
 *Styling (style.css)* :
 
-  --> Makes the app look decent on any device.
+          Makes the app look decent on any device.
 
-  --> Uses CSS Grid for an adaptive movie layout.
+          Uses CSS Grid for an adaptive movie layout.
 
-  --> Provides visual cues (hover effects, button states).
+           Provides visual cues (hover effects, button states).
 
 `If you think why this project is for, then `:
 
