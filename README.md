@@ -14,7 +14,7 @@
 
 *Project Description* :
 
-So it is one of my first tasks and i titled it as Cinema Explorer. Cinema Explorer is a simple, responsive web application where users can browse movies based on data from The Movie Database (TMDB) API. It features a simple-to-use interface for viewing popular movies, searching for titles, and displaying major information such as ratings, release dates, descriptions. it has two sections namely popular, recommended in which respective movies will be displayed upon selecting.
+So it is my first task and i titled it as Cinema Explorer. Cinema Explorer is a simple, responsive web application where users can browse movies based on data from The Movie Database (TMDB) API. It features a simple-to-use interface for viewing popular movies, searching for titles, and displaying major information such as ratings, release dates, descriptions. it has two sections namely popular, recommended in which respective movies will be displayed upon selecting.
 
 *Files* :
 
